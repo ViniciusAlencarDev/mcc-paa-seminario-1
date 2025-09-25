@@ -1,10 +1,12 @@
 # Seminário I - PAA: Árvore de Busca Binária Ótima (OBST)
 
-**Autor:** Augusto César e Vinícius Alencar
+**Autores:** Augusto César e Vinícius Alencar
 
 ## Descrição
 
-Este repositório contém os materiais para o Seminário I da disciplina de Projeto e Análise de Algoritmos. O tema abordado é a Árvore de Busca Binária Ótima (OBST), um algoritmo de programação dinâmica para construir uma árvore de busca com o menor custo esperado de pesquisa, baseado em probabilidades de acesso conhecidas.
+Este repositório contém os materiais para o Seminário I da disciplina de Projeto e Análise de Algoritmos. O tema abordado é a **Árvore de Busca Binária Ótima (OBST)**, uma técnica de programação dinâmica para construir uma árvore de busca com o menor custo esperado de pesquisa.
+
+O algoritmo implementado utiliza um modelo simplificado, baseado nas **frequências de acesso** conhecidas para cada chave de busca.
 
 ## Apresentação em Vídeo
 
@@ -15,14 +17,17 @@ A apresentação de 15 minutos está disponível no YouTube:
 ## Conteúdo do Repositório
 
 * `/slides.pdf`: Slides utilizados na apresentação.
-* `/codigo_e_dados`: Pasta contendo a implementação em Python do algoritmo e um exemplo de arquivo de dados.
+* `/codigo_e_dados`: Pasta contendo a implementação em Python do algoritmo e o arquivo de dados.
+
+## Sobre a Implementação
+
+O código-fonte (`obst_simplificado.py`) foi estruturado para ser didático e de fácil compreensão. Ele foca no conceito central da OBST, considerando apenas as frequências de buscas bem-sucedidas (ou seja, buscas por chaves que existem na árvore). A lógica utiliza indexação base 0, seguindo as convenções da linguagem Python.
 
 ## Como Executar o Código
 
-1.  Clone o repositório.
-2.  Navegue até a pasta `codigo_e_dados`.
-3.  Execute o script via terminal:
-    ```sh
-    python obst.py
-    ```
-4.  O script irá ler os dados do arquivo `exemplo_dados.txt` (ou usar dados fixos no código) e imprimir o custo mínimo e a estrutura da árvore ótima resultante.
+Para executar o projeto, siga os passos abaixo.
+
+**1. Clone o repositório:**
+```sh
+git clone [URL_DO_SEU_REPOSITORIO]
+cd [NOME_DO_SEU_REPOSITORIO]

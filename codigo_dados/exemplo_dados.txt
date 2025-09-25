@@ -1,8 +1,5 @@
-# Linha 1: Chaves (k_i), separadas por espaço. Devem ser números inteiros.
-10 20 30 40 50
+# Linha 1: Chaves (separadas por espaço)
+10 20 30 40
 
-# Linha 2: Probabilidades de sucesso (p_i), separadas por espaço. Devem ser números com ponto flutuante.
-0.15 0.10 0.05 0.10 0.20
-
-# Linha 3: Probabilidades de falha (q_i), separadas por espaço. Devem ser números com ponto flutuante.
-0.05 0.10 0.05 0.05 0.05 0.10
+# Linha 2: Frequências correspondentes
+4 10 3 2
