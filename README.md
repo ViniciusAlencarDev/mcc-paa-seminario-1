@@ -12,7 +12,7 @@ O algoritmo implementado utiliza um modelo simplificado, baseado nas **frequênc
 
 A apresentação de 15 minutos está disponível no YouTube:
 
-**[Link para o seu vídeo no YouTube]**
+**[[Link da apresentação no YouTube](https://youtu.be/RSHOJGZaN0g)]**
 
 ## Conteúdo do Repositório
 
@@ -21,13 +21,4 @@ A apresentação de 15 minutos está disponível no YouTube:
 
 ## Sobre a Implementação
 
-O código-fonte (`obst_simplificado.py`) foi estruturado para ser didático e de fácil compreensão. Ele foca no conceito central da OBST, considerando apenas as frequências de buscas bem-sucedidas (ou seja, buscas por chaves que existem na árvore). A lógica utiliza indexação base 0, seguindo as convenções da linguagem Python.
-
-## Como Executar o Código
-
-Para executar o projeto, siga os passos abaixo.
-
-**1. Clone o repositório:**
-```sh
-git clone [URL_DO_SEU_REPOSITORIO]
-cd [NOME_DO_SEU_REPOSITORIO]
+O código-fonte (`/codigo_e_dados/obst.py`) foi estruturado para ser didático e de fácil compreensão. Ele foca no conceito central da OBST, considerando apenas as frequências de buscas bem-sucedidas (ou seja, buscas por chaves que existem na árvore). A lógica utiliza indexação base 0, seguindo as convenções da linguagem Python.
