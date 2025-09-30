@@ -12,7 +12,7 @@ O algoritmo implementado utiliza um modelo simplificado, baseado nas **frequênc
 
 A apresentação de 15 minutos está disponível no YouTube:
 
-https://youtu.be/RSHOJGZaN0g
+<https://youtu.be/RSHOJGZaN0g>
 
 ## Conteúdo do Repositório
 
